@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84CCAC532282A92F00FA668C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CCAC522282A92F00FA668C /* AppDelegate.m */; };
+		84CCAC562282A92F00FA668C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CCAC552282A92F00FA668C /* ViewController.m */; };
+		84CCAC592282A92F00FA668C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CCAC572282A92F00FA668C /* Main.storyboard */; };
+		84CCAC5B2282A93600FA668C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CCAC5A2282A93600FA668C /* Assets.xcassets */; };
+		84CCAC5E2282A93600FA668C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CCAC5C2282A93600FA668C /* LaunchScreen.storyboard */; };
+		84CCAC612282A93600FA668C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CCAC602282A93600FA668C /* main.m */; };
+		84CCAC6B2282A93600FA668C /* HelloWorldForJenkinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CCAC6A2282A93600FA668C /* HelloWorldForJenkinsTests.m */; };
+		84CCAC762282A93600FA668C /* HelloWorldForJenkinsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CCAC752282A93600FA668C /* HelloWorldForJenkinsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CCAC672282A93600FA668C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CCAC462282A92E00FA668C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CCAC4D2282A92E00FA668C;
+			remoteInfo = HelloWorldForJenkins;
+		};
+		84CCAC722282A93600FA668C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CCAC462282A92E00FA668C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CCAC4D2282A92E00FA668C;
+			remoteInfo = HelloWorldForJenkins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84CCAC4E2282A92E00FA668C /* HelloWorldForJenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldForJenkins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CCAC512282A92F00FA668C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84CCAC522282A92F00FA668C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84CCAC542282A92F00FA668C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84CCAC552282A92F00FA668C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84CCAC582282A92F00FA668C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CCAC5A2282A93600FA668C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CCAC5D2282A93600FA668C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84CCAC5F2282A93600FA668C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CCAC602282A93600FA668C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84CCAC662282A93600FA668C /* HelloWorldForJenkinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldForJenkinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CCAC6A2282A93600FA668C /* HelloWorldForJenkinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldForJenkinsTests.m; sourceTree = "<group>"; };
+		84CCAC6C2282A93600FA668C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CCAC712282A93600FA668C /* HelloWorldForJenkinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldForJenkinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CCAC752282A93600FA668C /* HelloWorldForJenkinsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldForJenkinsUITests.m; sourceTree = "<group>"; };
+		84CCAC772282A93600FA668C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CCAC4B2282A92E00FA668C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CCAC632282A93600FA668C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CCAC6E2282A93600FA668C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84CCAC452282A92E00FA668C = {
+			isa = PBXGroup;
+			children = (
+				84CCAC502282A92E00FA668C /* HelloWorldForJenkins */,
+				84CCAC692282A93600FA668C /* HelloWorldForJenkinsTests */,
+				84CCAC742282A93600FA668C /* HelloWorldForJenkinsUITests */,
+				84CCAC4F2282A92E00FA668C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CCAC4F2282A92E00FA668C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CCAC4E2282A92E00FA668C /* HelloWorldForJenkins.app */,
+				84CCAC662282A93600FA668C /* HelloWorldForJenkinsTests.xctest */,
+				84CCAC712282A93600FA668C /* HelloWorldForJenkinsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CCAC502282A92E00FA668C /* HelloWorldForJenkins */ = {
+			isa = PBXGroup;
+			children = (
+				84CCAC512282A92F00FA668C /* AppDelegate.h */,
+				84CCAC522282A92F00FA668C /* AppDelegate.m */,
+				84CCAC542282A92F00FA668C /* ViewController.h */,
+				84CCAC552282A92F00FA668C /* ViewController.m */,
+				84CCAC572282A92F00FA668C /* Main.storyboard */,
+				84CCAC5A2282A93600FA668C /* Assets.xcassets */,
+				84CCAC5C2282A93600FA668C /* LaunchScreen.storyboard */,
+				84CCAC5F2282A93600FA668C /* Info.plist */,
+				84CCAC602282A93600FA668C /* main.m */,
+			);
+			path = HelloWorldForJenkins;
+			sourceTree = "<group>";
+		};
+		84CCAC692282A93600FA668C /* HelloWorldForJenkinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CCAC6A2282A93600FA668C /* HelloWorldForJenkinsTests.m */,
+				84CCAC6C2282A93600FA668C /* Info.plist */,
+			);
+			path = HelloWorldForJenkinsTests;
+			sourceTree = "<group>";
+		};
+		84CCAC742282A93600FA668C /* HelloWorldForJenkinsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84CCAC752282A93600FA668C /* HelloWorldForJenkinsUITests.m */,
+				84CCAC772282A93600FA668C /* Info.plist */,
+			);
+			path = HelloWorldForJenkinsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CCAC4D2282A92E00FA668C /* HelloWorldForJenkins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CCAC7A2282A93600FA668C /* Build configuration list for PBXNativeTarget "HelloWorldForJenkins" */;
+			buildPhases = (
+				84CCAC4A2282A92E00FA668C /* Sources */,
+				84CCAC4B2282A92E00FA668C /* Frameworks */,
+				84CCAC4C2282A92E00FA668C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldForJenkins;
+			productName = HelloWorldForJenkins;
+			productReference = 84CCAC4E2282A92E00FA668C /* HelloWorldForJenkins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CCAC652282A93600FA668C /* HelloWorldForJenkinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CCAC7D2282A93600FA668C /* Build configuration list for PBXNativeTarget "HelloWorldForJenkinsTests" */;
+			buildPhases = (
+				84CCAC622282A93600FA668C /* Sources */,
+				84CCAC632282A93600FA668C /* Frameworks */,
+				84CCAC642282A93600FA668C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CCAC682282A93600FA668C /* PBXTargetDependency */,
+			);
+			name = HelloWorldForJenkinsTests;
+			productName = HelloWorldForJenkinsTests;
+			productReference = 84CCAC662282A93600FA668C /* HelloWorldForJenkinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84CCAC702282A93600FA668C /* HelloWorldForJenkinsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CCAC802282A93600FA668C /* Build configuration list for PBXNativeTarget "HelloWorldForJenkinsUITests" */;
+			buildPhases = (
+				84CCAC6D2282A93600FA668C /* Sources */,
+				84CCAC6E2282A93600FA668C /* Frameworks */,
+				84CCAC6F2282A93600FA668C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CCAC732282A93600FA668C /* PBXTargetDependency */,
+			);
+			name = HelloWorldForJenkinsUITests;
+			productName = HelloWorldForJenkinsUITests;
+			productReference = 84CCAC712282A93600FA668C /* HelloWorldForJenkinsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CCAC462282A92E00FA668C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Vitthal Bobade";
+				TargetAttributes = {
+					84CCAC4D2282A92E00FA668C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					84CCAC652282A93600FA668C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 84CCAC4D2282A92E00FA668C;
+					};
+					84CCAC702282A93600FA668C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 84CCAC4D2282A92E00FA668C;
+					};
+				};
+			};
+			buildConfigurationList = 84CCAC492282A92E00FA668C /* Build configuration list for PBXProject "HelloWorldForJenkins" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CCAC452282A92E00FA668C;
+			productRefGroup = 84CCAC4F2282A92E00FA668C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CCAC4D2282A92E00FA668C /* HelloWorldForJenkins */,
+				84CCAC652282A93600FA668C /* HelloWorldForJenkinsTests */,
+				84CCAC702282A93600FA668C /* HelloWorldForJenkinsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CCAC4C2282A92E00FA668C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CCAC5E2282A93600FA668C /* LaunchScreen.storyboard in Resources */,
+				84CCAC5B2282A93600FA668C /* Assets.xcassets in Resources */,
+				84CCAC592282A92F00FA668C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CCAC642282A93600FA668C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CCAC6F2282A93600FA668C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CCAC4A2282A92E00FA668C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CCAC562282A92F00FA668C /* ViewController.m in Sources */,
+				84CCAC612282A93600FA668C /* main.m in Sources */,
+				84CCAC532282A92F00FA668C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CCAC622282A93600FA668C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CCAC6B2282A93600FA668C /* HelloWorldForJenkinsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CCAC6D2282A93600FA668C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CCAC762282A93600FA668C /* HelloWorldForJenkinsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CCAC682282A93600FA668C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CCAC4D2282A92E00FA668C /* HelloWorldForJenkins */;
+			targetProxy = 84CCAC672282A93600FA668C /* PBXContainerItemProxy */;
+		};
+		84CCAC732282A93600FA668C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CCAC4D2282A92E00FA668C /* HelloWorldForJenkins */;
+			targetProxy = 84CCAC722282A93600FA668C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CCAC572282A92F00FA668C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CCAC582282A92F00FA668C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84CCAC5C2282A93600FA668C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CCAC5D2282A93600FA668C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CCAC782282A93600FA668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84CCAC792282A93600FA668C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CCAC7B2282A93600FA668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC2GTKS8YT;
+				INFOPLIST_FILE = HelloWorldForJenkins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.test.HelloWorldForJenkins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84CCAC7C2282A93600FA668C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC2GTKS8YT;
+				INFOPLIST_FILE = HelloWorldForJenkins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.test.HelloWorldForJenkins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84CCAC7E2282A93600FA668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC2GTKS8YT;
+				INFOPLIST_FILE = HelloWorldForJenkinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.test.HelloWorldForJenkinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldForJenkins.app/HelloWorldForJenkins";
+			};
+			name = Debug;
+		};
+		84CCAC7F2282A93600FA668C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC2GTKS8YT;
+				INFOPLIST_FILE = HelloWorldForJenkinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.test.HelloWorldForJenkinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldForJenkins.app/HelloWorldForJenkins";
+			};
+			name = Release;
+		};
+		84CCAC812282A93600FA668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC2GTKS8YT;
+				INFOPLIST_FILE = HelloWorldForJenkinsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.test.HelloWorldForJenkinsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloWorldForJenkins;
+			};
+			name = Debug;
+		};
+		84CCAC822282A93600FA668C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC2GTKS8YT;
+				INFOPLIST_FILE = HelloWorldForJenkinsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fujitsu.test.HelloWorldForJenkinsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloWorldForJenkins;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CCAC492282A92E00FA668C /* Build configuration list for PBXProject "HelloWorldForJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CCAC782282A93600FA668C /* Debug */,
+				84CCAC792282A93600FA668C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CCAC7A2282A93600FA668C /* Build configuration list for PBXNativeTarget "HelloWorldForJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CCAC7B2282A93600FA668C /* Debug */,
+				84CCAC7C2282A93600FA668C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CCAC7D2282A93600FA668C /* Build configuration list for PBXNativeTarget "HelloWorldForJenkinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CCAC7E2282A93600FA668C /* Debug */,
+				84CCAC7F2282A93600FA668C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CCAC802282A93600FA668C /* Build configuration list for PBXNativeTarget "HelloWorldForJenkinsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CCAC812282A93600FA668C /* Debug */,
+				84CCAC822282A93600FA668C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84CCAC462282A92E00FA668C /* Project object */;
+}
